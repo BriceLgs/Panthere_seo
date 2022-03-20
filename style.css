@@ -39,6 +39,12 @@ a:hover {
     position: relative;
 }
 
+#contactagence  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -91,7 +97,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.jpg");
     background-size: 280px 280px;
 }
 
@@ -818,11 +824,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/section_presentation.webp");
+    background-image: url("img/section_presentation.jpg");
 }
 
 @media (max-width: 1024px) {
